@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(144, 189, 226, 0.752);
+}
+
+#lista{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #151515;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    position:fixed;
+    
+}
+
+.nome, .altura, .peso{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+.nome input, 
+.peso input, 
+.altura input {
+    font-family: 'Montserrat';    
+    border: none;
+    background-color: darkgrey;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+
+}
+
+label{
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+.enviar button input{
+    border: none;
+    background-color: transparent;
+}
+
+.enviar button{
+    position: relative;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(21, 255, 21);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.enviar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#resultado{
+   
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat';
+    position: relative;
+    margin-top: 5%;
+    font-weight: bold;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media (max-width: 480px){
+    .container{
+        margin-top: 30%;
+    }
+}
+
+.limpar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.limpar button{
+    background-color: transparent;
+    border: none;
+    font-family: "Montserrat";
+    padding-top: 15px;
+    color: aliceblue;
+    cursor: pointer;
+}
